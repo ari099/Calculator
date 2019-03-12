@@ -1,1 +1,30 @@
 /* Calculator Styles */
+body {
+   font-family: "Monaco";
+}
+
+table.calculator {
+   padding: 10px;
+   background-color: rgb(202, 232, 240);
+}
+
+td.ops {
+   height: 50px;
+   width: 50px;
+   padding: 10px;
+   color: #046;
+   background-color: lightblue;
+   border: 1px solid gray;
+   text-align: center;
+   cursor: pointer;
+}
+
+td.screen {
+   height: 50px;
+   width: 50px;
+   padding: 10px;
+   color: lightblue;
+   background-color: #046;
+   border: 1px solid lightblue;
+   text-align: right;
+}
